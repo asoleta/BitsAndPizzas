@@ -1,5 +1,6 @@
 package com.example.bitsandpizzas;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -23,9 +24,13 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
         if(id == R.id.action_create_order)
         {
-            Break;
+            Intent intent = new Intent(this, OrderActivity.class);
+            startActivity(intent);
+            return true;
         }
 
-        return None;
+        else {
+            return super.onOptionsItemSelected(item);
+        }
     }
 }
