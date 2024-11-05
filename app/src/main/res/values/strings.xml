@@ -24,4 +24,9 @@
         <item>New Jersey</item>
         <item>New York</item>
     </string-array>
+
+    <string name="home_tab">Bits and Pizzas</string>
+    <string name="pizza_tab">Pizzas</string>
+    <string name="pasta_tab">Pastas</string>
+    <string name="store_tab">Stores</string>
 </resources>
