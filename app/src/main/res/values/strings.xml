@@ -6,4 +6,22 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_top">Title</string>
+
+    <string-array name="pizzas">
+        <item>Cheese</item>
+        <item>Margherita</item>
+        <item>Pepperoni</item>
+    </string-array>
+
+    <string-array name="pasta">
+        <item>Lasange</item>
+        <item>Penne</item>
+        <item>Alfredo</item>
+    </string-array>
+
+    <string-array name="stores">
+        <item>Pennsylvania</item>
+        <item>New Jersey</item>
+        <item>New York</item>
+    </string-array>
 </resources>
